@@ -4,7 +4,7 @@ from todo.commands import add_task, list_tasks, mark_done, remove_task
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python main.py <command> [args]")
+        print("Usage: todo <add|list|done|remove> [args]")
         return
     cmd = sys.argv  
     if cmd == "add":
